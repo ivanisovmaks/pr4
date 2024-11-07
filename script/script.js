@@ -54,6 +54,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 { title: 'Гірчичний', url: './image/sauce3.png' }
             ],
             type: 'radio'
+        },
+		{
+            question: "Введіть свій номер телефона",
+            answers: [],
+            type: 'text'
         }
     ];
 
