@@ -20,45 +20,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const questions = [
         {
-            question: "Какого цвета бургер?",
+            question: "Якого кольору бургер?",
             answers: [
                 { title: 'Стандарт', url: './image/burger.png' },
-                { title: 'Чёрный', url: './image/burgerBlack.png' }
+                { title: 'Чорний', url: './image/burgerBlack.png' }
             ],
             type: 'radio'
         },
         {
-            question: "Из какого мяса котлета?",
+            question: "З якого м'яса котлета?",
             answers: [
-                { title: 'Курица', url: './image/chickenMeat.png' },
-                { title: 'Говядина', url: './image/beefMeat.png' },
+                { title: 'Курка', url: './image/chickenMeat.png' },
+                { title: 'Яловичина', url: './image/beefMeat.png' },
                 { title: 'Свинина', url: './image/porkMeat.png' }
             ],
             type: 'radio'
         },
         {
-            question: "Дополнительные ингредиенты?",
+            question: "Додаткові інгредієнти?",
             answers: [
-                { title: 'Помидор', url: './image/tomato.png' },
-                { title: 'Огурец', url: './image/cucumber.png' },
+                { title: 'Помідор', url: './image/tomato.png' },
+                { title: 'Огірок', url: './image/cucumber.png' },
                 { title: 'Салат', url: './image/salad.png' },
-                { title: 'Лук', url: './image/onion.png' }
+                { title: 'Цибуля', url: './image/onion.png' }
             ],
             type: 'checkbox'
         },
         {
-            question: "Добавить соус?",
+            question: "Додати соус?",
             answers: [
-                { title: 'Чесночный', url: './image/sauce1.png' },
-                { title: 'Томатный', url: './image/sauce2.png' },
-                { title: 'Горчичный', url: './image/sauce3.png' }
+                { title: 'Часниковий', url: './image/sauce1.png' },
+                { title: 'Томатний', url: './image/sauce2.png' },
+                { title: 'Гірчичний', url: './image/sauce3.png' }
             ],
             type: 'radio'
-        },
-        {
-            question: "Введите свой номер телефона",
-            answers: [],
-            type: 'text'
         }
     ];
 
